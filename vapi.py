@@ -109,7 +109,7 @@ class ProvidesProperty(property):
         :param doc: Documentation for the property.
         """
 
-        self.__isprovidedmethod__ = req
+        self.__isprovidedmethod__ = prov
         super(ProvidesProperty, self).__init__(fget, fset, fdel, doc)
 
 
